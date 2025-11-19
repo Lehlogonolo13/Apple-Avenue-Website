@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquiry | Apple Avenue — Contact Us for iPhones & AirPods</title>
+
+<meta name="description" content="Send an enquiry to Apple Avenue. Ask about iPhones, AirPods, pricing, availability, or general support. Our team responds fast and professionally.">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://www.appleavenue.co.za/Enquiry.html">
+
+<!-- Open Graph / Social Sharing -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Apple Avenue Enquiries — iPhones & AirPods">
+<meta property="og:description" content="Submit an enquiry to Apple Avenue regarding iPhones, AirPods, and product availability. Fast and friendly support.">
+<meta property="og:image" content="IMG/logo.png">
+<meta property="og:url" content="https://www.appleavenue.co.za/Enquiry.html">
+<meta property="og:site_name" content="Apple Avenue">
+<meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="CSS/Enquiry.css">
+
+</head>
+
+
+<body>
+
+  <div class="site">
+
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="Home.html">
+          <img src="IMG/logo.png" alt="Apple Avenue logo" class="brand-logo">
+          <span class="brand-name">Apple Avenue</span>
+        </a>
+
+        <nav class="nav-desktop">
+          <a href="Home.html">Home</a>
+          <a href="About.html">About</a>
+          <a href="Product.html">Product</a>
+          <a href="Enquiry.html">Enquiry</a>
+          <a href="Contact.html">Contact</a>
+        </nav>
+
+        <div class="header-controls">
+          <div class="search-wrap" id="searchWrap">
+            <button id="searchToggle" class="search-toggle">
+              <img src="IMG/20.webp" alt="Search">
+            </button>
+            <form id="searchForm" class="search-form" onsubmit="return false;">
+              <input id="searchInput" class="search-input" type="search" placeholder="Search products...">
+            </form>
+          </div>
+
+          <div class="nav-mobile">
+            <select id="navSelect">
+              <option value="">— Navigate —</option>
+              <option value="Home.html">Home</option>
+              <option value="About.html">About</option>
+              <option value="Product.html">Product</option>
+              <option value="Enquiry.html">Enquiry</option>
+              <option value="Contact.html">Contact</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <section class="enquiry-wrapper">
+    <h1 class="enquiry-title">Send Us an Enquiry</h1>
+
+    <div class="glass-card">
+        <form id="enquiryForm">
+
+            <div class="input-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="example@email.com" required>
+            </div>
+
+            <div class="input-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="+27 000 000 000">
+            </div>
+
+            <div class="input-group">
+                <label for="enquiryType">Enquiry Type</label>
+                <select id="enquiryType" required>
+                    <option disabled selected>Select an option</option>
+                    <option>General Enquiry</option>
+                    <option>Product Information</option>
+                    <option>Order Support</option>
+                    <option>Feedback</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Type your message..." required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit</button>
+
+            <!-- ERROR + SUCCESS MESSAGES -->
+            <p id="enquiryError" style="color:red; margin-top:10px; display:none;"></p>
+            <p id="enquirySuccess" style="color:green; margin-top:10px; display:none;"></p>
+
+        </form>
+    </div>
+</section>
+
+
+<!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <p>© 2025 Apple Avenue. All rights reserved.</p>
+          <p class="muted">Email: <a href="mailto:AppleAvenue@gmail.com">AppleAvenue@gmail.com</a></p>
+        </div>
+        <div class="footer-right">
+          <div class="social-icons" aria-label="Social links">
+            <a href="#" target="_blank" rel="noopener">
+              <img src="IMG/facebook icon.avif" alt="Facebook" />
+            </a>
+            <a href="#" target="_blank" rel="noopener">
+              <img src="IMG/insta icon.jpg" alt="Instagram" />
+            </a>
+            <a href="#" target="_blank" rel="noopener">
+              <img src="IMG/tiktok icon.jpeg" alt="TikTok" />
+            </a>
+            <a href="#" target="_blank" rel="noopener">
+              <img src="IMG/whatsapp icon.jpg" alt="WhatsApp" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+<script src="JavaScript/validation.js"></script>
+
+<script src="JavaScript/Enquiry script.js"></script>  
+</body>
+
+
+</html>

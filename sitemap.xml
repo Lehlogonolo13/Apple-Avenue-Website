@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Root domain -->
+  <url>
+    <loc>https://www.appleavenue.co.za/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.appleavenue.co.za/Home.html</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.appleavenue.co.za/About.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.appleavenue.co.za/Product.html</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.appleavenue.co.za/Enquiry.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.appleavenue.co.za/Contact.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
